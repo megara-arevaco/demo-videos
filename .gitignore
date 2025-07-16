@@ -1,0 +1,48 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+**/dist/
+build/
+
+# Environment variables
+.env
+.env.*
+
+# SQLite database
+backend/database.db
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+
+# Docker
+*.local
+*.pid
+docker-compose.override.yml
+
+# Misc
+*.tgz
+*.log
+
+# Frontend build
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+
+# Shadcn generated
+frontend/components.json
+
+# TanStack Query cache
+frontend/.tanstack/
